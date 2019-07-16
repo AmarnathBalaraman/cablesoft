@@ -1,0 +1,114 @@
+﻿@model CustomerManagement.Models.EditUserModel
+
+@{
+    ViewBag.Title = "EditList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-6">
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success alert-dismissable">
+                    <i class="fa fa-check"></i>
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <b>Alert!</b> Success.
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Add User</h6>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("UpdateUser", null, FormMethod.Post, new { role = "form", id = "FormUser", enctype = "multipart/form-data" }))
+            {
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div class="form-group">
+                            <label for="Firstname" class="control-label col-md-4">First Name:</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.Firstname, new { @class = "form-control", @placeholder = "Enter Firstname", @required = "true" })
+                                @Html.ValidationMessageFor(model => model.Firstname, "", new { @class = "text-danger" })
+                                <input type="hidden" class="form-control" name="UserID" id="UserID" value="@Model.UserID">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="control-label col-md-4">Middlename</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.Middlename, new { @class = "form-control", @placeholder = "Enter Middlename" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="control-label col-md-4">Lastname</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.Lastname, new { @class = "form-control", @placeholder = "Enter Lastname" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="control-label col-md-4">Gender</label>
+                            <div class="col-md-8">
+                                @Html.DropDownListFor(model => model.Gender,
+                                    new SelectList(Model.sex, "GenderID", "Description"),
+                                    new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="PositionId" class="control-label col-md-4">Position:</label>
+                            <div class="col-md-8">
+                                @Html.DropDownListFor(model => model.PositionId,
+                                new SelectList(Model.Position, "PositionId", "PositionName"),
+                                "--Select Position--",
+                                new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.PositionId, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="control-label col-md-4">Phone</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.Phone, new { @class = "form-control", @placeholder = "Enter Phone" })
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="control-label col-md-4">Email</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.Email, new { @class = "form-control", @placeholder = "Enter Email", @required = "true" })
+                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="control-label col-md-4">Password</label>
+                            <div class="col-md-8">
+                                @Html.PasswordFor(model => model.Password, new { @class = "form-control", @placeholder = "Enter Password", @required = "true" })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="control-label col-md-4">ConfirmPassword</label>
+                            <div class="col-md-8">
+                                @Html.PasswordFor(model => model.CPassword, new { @class = "form-control", @placeholder = "Confirm Password", id = "CPassword", @required = "true" })
+                                @Html.ValidationMessageFor(model => model.CPassword, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="box-footer" align="right">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>

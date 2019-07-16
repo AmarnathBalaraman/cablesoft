@@ -1,0 +1,160 @@
+﻿@model IEnumerable<CustomerManagement.Models.CustomerListModel>
+
+@{
+    ViewBag.Title = "CustomerList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Customer List</h1>
+        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+    </div>
+
+    <p>
+        @Html.ActionLink("Create New", "AddCustomer")
+    </p>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Customer List</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-sm" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>
+                                Id
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Address
+                            </th>
+                            <th>
+                                Street
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody_style">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CustomerId)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CustomerName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CustomerAddress)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CustomerStreet)
+                                </td>
+                                <td>
+                                    @if (item.IsActive == 1)
+                                    {
+                                        <a href="#DeactivateUserModal_@Html.DisplayFor(m => item.CustomerId)" data-toggle="modal"><span class="badge badge-success">Active</span></a>
+
+                                    <!-- Deactivate User Modal -->
+                                        <div class="modal fade" id="DeactivateUserModal_@Html.DisplayFor(m => item.CustomerId)" tabindex="-1" role="dialog" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title">Deactivate User</h4>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    </div>
+                                                    @using (Html.BeginForm("DeactivateActivateUser", null, FormMethod.Post, new { @class = "smart-form client-form", role = "form", id = "smart-form-register", enctype = "multipart/form-data" }))
+                                                    {
+                                                        <div class="modal-body">
+                                                            Are you sure you want to deactivate the User <strong>@Html.DisplayFor(m => item.CustomerName) </strong>?
+
+                                                            <input type="hidden" class="form-control" name="CustomerId" value="@Html.DisplayFor(m => item.CustomerId)" />
+                                                            <input type="hidden" name="Operation" value="Deactivate" />
+                                                        </div>
+                                                        <div class="modal-footer clearfix">
+                                                            <button type="submit" class="btn btn-primary"> Yes</button>
+                                                            <button type="button" class="btn btn-danger" data-dismiss="modal"> Cancel</button>
+                                                        </div>
+                                                    }
+                                                </div><!-- /.modal-content -->
+                                            </div><!-- /.modal-dialog -->
+                                        </div>
+                                        <!-- /.Disable User modal -->
+                                    }
+                                    else
+                                    {
+                                        <a href="#ActivateUserModal_@Html.DisplayFor(m => item.CustomerId)" data-toggle="modal"><span class="badge badge-warning">Inactive</span></a>
+
+                                    <!-- Activate User Modal -->
+                                        <div class="modal fade" id="ActivateUserModal_@Html.DisplayFor(m => item.CustomerId)" tabindex="-1" role="dialog" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title"> Activate User</h4>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    </div>
+                                                    @using (Html.BeginForm("DeactivateActivateUser", null, FormMethod.Post, new { @class = "smart-form client-form", role = "form", id = "smart-form-register", enctype = "multipart/form-data" }))
+                                                    {
+                                                        <div class="modal-body">
+                                                            Are you sure you want to Activate the User <strong>@Html.DisplayFor(m => item.CustomerName) </strong>?
+
+                                                            <input type="hidden" class="form-control" name="CustomerId" value="@Html.DisplayFor(m => item.CustomerId)" />
+                                                            <input type="hidden" name="Operation" value="Activate" />
+                                                        </div>
+                                                        <div class="modal-footer clearfix">
+                                                            <button type="submit" class="btn btn-primary"> Yes</button>
+                                                            <button type="button" class="btn btn-danger" data-dismiss="modal"> Cancel</button>
+                                                        </div>
+                                                    }
+                                                </div><!-- /.modal-content -->
+                                            </div><!-- /.modal-dialog -->
+                                        </div>
+                                    <!-- /.Activate User modal -->
+                                    }
+
+                                </td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="/CustomerManagement/EditCustomer/@Html.DisplayFor(modelItem => item.CustomerId)"><i class="fa fa-edit"></i></a>
+                                    <button class="btn btn-sm btn-danger" type="button" data-toggle="modal" data-target="#RemoveUser_@Html.DisplayFor(m => item.CustomerId)"><i class="fa fa-times fa fa-white"></i></button>
+                                    <!-- Remove User Modal -->
+                                    <div class="modal fade" id="RemoveUser_@Html.DisplayFor(m => item.CustomerId)" tabindex="-1" role="dialog" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title"> Remove Customer</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                </div>
+                                                @using (Html.BeginForm("RemoveCustomer", null, FormMethod.Post, new { @class = "smart-form client-form", role = "form", id = "smart-form-register" }))
+                                                {
+                                                    <div class="modal-body">
+                                                        Are you sure you want to remove the Customer <strong> @Html.DisplayFor(modelItem => item.CustomerName) </strong>?
+
+                                                        <input type="hidden" class="form-control" name="CustomerId" value="@Html.DisplayFor(modelItem => item.CustomerId)" />
+                                                    </div>
+                                                    <div class="modal-footer clearfix">
+                                                        <button type="submit" class="btn btn-primary"> Yes</button>
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal"> Cancel</button>
+                                                    </div>
+                                                }
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div>
+                                    <!-- /.Remove User modal -->
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

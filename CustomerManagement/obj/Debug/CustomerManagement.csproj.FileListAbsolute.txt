@@ -1,0 +1,222 @@
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll.config
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\CustomerManagement.pdb
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Antlr3.Runtime.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\EntityFramework.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Newtonsoft.Json.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Owin.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.Helpers.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.Mvc.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.Optimization.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.Razor.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\WebGrease.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.Helpers.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.Mvc.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.Optimization.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.Razor.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Newtonsoft.Json.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\EntityFramework.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csprojResolveAssemblyReference.cache
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.dll
+C:\Users\Gowdham\documents\visual studio 2013\Projects\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.pdb
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll.config
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\CustomerManagement.pdb
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Antlr3.Runtime.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\EntityFramework.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Google.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Newtonsoft.Json.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Owin.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.Helpers.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.Mvc.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.Optimization.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.Razor.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Deployment.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Razor.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\WebGrease.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.Helpers.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.Mvc.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.Optimization.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.Razor.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Deployment.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Razor.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Newtonsoft.Json.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Antlr3.Runtime.pdb
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\EntityFramework.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Google.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.pdb
+E:\Amar_projects\dotnet\CustomerManagement_Ver3\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csprojResolveAssemblyReference.cache
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll.config
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\CustomerManagement.pdb
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Antlr3.Runtime.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\EntityFramework.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Google.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Newtonsoft.Json.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Owin.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Helpers.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Mvc.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Optimization.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Razor.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Deployment.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Razor.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\WebGrease.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Helpers.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Mvc.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Optimization.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Razor.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Deployment.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Razor.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Newtonsoft.Json.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Antlr3.Runtime.pdb
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\EntityFramework.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Google.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.dll
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.pdb
+E:\Amar_projects\dotnet\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csprojResolveAssemblyReference.cache
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll.config
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\CustomerManagement.pdb
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Antlr3.Runtime.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\EntityFramework.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Newtonsoft.Json.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Owin.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Helpers.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Mvc.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Optimization.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Razor.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Deployment.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Razor.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\WebGrease.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Helpers.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Mvc.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Optimization.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.Razor.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Deployment.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\System.Web.WebPages.Razor.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Newtonsoft.Json.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Antlr3.Runtime.pdb
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\EntityFramework.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csprojAssemblyReference.cache
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csproj.CoreCompileInputs.cache
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csproj.CopyComplete
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.dll
+D:\CustomerManagement_Ver4\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.pdb

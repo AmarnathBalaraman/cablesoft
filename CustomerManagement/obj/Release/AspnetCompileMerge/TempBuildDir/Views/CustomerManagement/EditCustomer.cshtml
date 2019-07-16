@@ -1,0 +1,161 @@
+﻿@model CustomerManagement.Models.EditCustomerModel
+@{
+    ViewBag.Title = "EditCustomer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Add Customer</h6>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("UpdateCustomer", null, FormMethod.Post, new { role = "form", id = "FormCustomer", enctype = "multipart/form-data" }))
+            {
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="CustomerName" class="control-label col-md-4">Customer Name:</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                @Html.ValidationMessageFor(model => model.CustomerName, "", new { @class = "text-danger" })
+                                <input type="hidden" class="form-control" name="CustomerId" id="CustomerId" value="@Model.CustomerId">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="CustomerAddress" class="control-label col-md-4">Address:</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.CustomerAddress, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                @Html.ValidationMessageFor(model => model.CustomerAddress, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="CustomerStreet" class="control-label col-md-4">Street:</label>
+                            <div class="col-md-8">
+                                @*@Html.EditorFor(model => model.CustomerStreet, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })*@
+                                @Html.DropDownListFor(model => model.CustomerStreet,
+                                new SelectList(Model.Street, "StreetId", "StreetName"),
+                                "--SELECT STEERT--",
+                                new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.CustomerStreet, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="CustomerPincode" class="control-label col-md-4">Pincode:</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.CustomerPincode, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                @Html.ValidationMessageFor(model => model.CustomerPincode, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="CustomerCity" class="control-label col-md-4">City:</label>
+                            <div class="col-md-8">
+
+                                @Html.DropDownListFor(model => model.CustomerCity,
+                                new SelectList(Model.City, "CityId", "CityName"),
+                                "--SELECT CITY--",
+                                new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.CustomerCity, "", new { @class = "text-danger" })
+
+                                @*@Html.EditorFor(model => model.CustomerCity, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                    @Html.ValidationMessageFor(model => model.CustomerCity, "", new { @class = "text-danger" })*@
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="CustomerState" class="control-label col-md-4">State:</label>
+                            <div class="col-md-8">
+
+                                @Html.DropDownListFor(model => model.CustomerState,
+                                new SelectList(Model.State, "StateId", "StateName"),
+                                "--SELECT STATE--",
+                                new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.CustomerState, "", new { @class = "text-danger" })
+
+                                @*@Html.EditorFor(model => model.CustomerState, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                    @Html.ValidationMessageFor(model => model.CustomerState, "", new { @class = "text-danger" })*@
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="CustomerCountry" class="control-label col-md-4">Country:</label>
+                            <div class="col-md-8">
+
+                                @Html.DropDownListFor(model => model.CustomerCountry,
+                                new SelectList(Model.Country, "CountryId", "CountryName"),
+                                "--SELECT COUNTRY--",
+                                new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.CustomerState, "", new { @class = "text-danger" })
+
+                                @*@Html.EditorFor(model => model.CustomerCountry, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                    @Html.ValidationMessageFor(model => model.CustomerCountry, "", new { @class = "text-danger" })*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <div class="form-group">
+                            <label for="CustomerEmailId" class="control-label col-md-4">Email Id:</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.CustomerEmailId, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                @Html.ValidationMessageFor(model => model.CustomerEmailId, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="CustomerMobileNo" class="control-label col-md-4">Mobile No:</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(model => model.CustomerMobileNo, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                @Html.ValidationMessageFor(model => model.CustomerMobileNo, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="CustomerCountry" class="control-label col-md-4">Box Type:</label>
+                            <div class="col-md-8">
+                                @Html.DropDownListFor(model => model.CustomerBoxType,
+                                new SelectList(Model.Box, "BoxId", "BoxName"),
+                                "--SELECT BOX TYPE--",
+                                new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.CustomerBoxType, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="CustomerBoxSerialNo" class="control-label col-md-4">Box Serial No:</label>
+                            <div class="col-md-8">
+                                @Html.EditorFor(model => model.CustomerBoxSerialNo, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                @Html.ValidationMessageFor(model => model.CustomerBoxSerialNo, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="CustomerCountry" class="control-label col-md-4">Package Type:</label>
+                            <div class="col-md-8">
+                                @Html.DropDownListFor(model => model.CustomerPackageId,
+                                new SelectList(Model.Package, "PackageId", "PackageName"),
+                                "--SELECT PACKAGE TYPE--",
+                                new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.CustomerPackageId, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Save" class="btn btn-primary" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+

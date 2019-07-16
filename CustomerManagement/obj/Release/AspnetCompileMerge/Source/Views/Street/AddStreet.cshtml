@@ -1,0 +1,39 @@
+﻿@model CustomerManagement.Models.StreetModel
+
+@{
+    ViewBag.Title = "AddStreet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+<div class="container-fluid">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Add Street</h6>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                  
+                    @Html.ValidationSummary(true)
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.StreetName, new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.StreetName)
+                            @Html.ValidationMessageFor(model => model.StreetName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="AddStreet" class="btn btn-primary " />
+                        </div>
+                    </div>
+                </div>
+            }
+            </div>
+        </div>
+</div>
